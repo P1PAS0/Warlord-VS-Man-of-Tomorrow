@@ -15,7 +15,7 @@ C:/Users/felip/Warlord-VS-Man-of-Tomorrow
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51118
+51742
 Successfully changed project path to: C:/Users/felip/Warlord-VS-Man-of-Tomorrow
 C:/Users/felip/Warlord-VS-Man-of-Tomorrow
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,14 +49,14 @@ C:/Users/felip/Warlord-VS-Man-of-Tomorrow
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [21136]  Target information:
+Player connection [8868]  Target information:
 
-Player connection [21136]  * "[IP] 192.168.100.84 [Port] 0 [Flags] 2 [Guid] 1373809390 [EditorId] 1373809390 [Version] 1048832 [Id] WindowsEditor(7,Desktop-Felipe) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [8868]  * "[IP] 192.168.100.84 [Port] 0 [Flags] 2 [Guid] 609754550 [EditorId] 609754550 [Version] 1048832 [Id] WindowsEditor(7,Desktop-Felipe) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [21136] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [21136] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8868] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8868] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-Refreshing native plugins compatible for Editor in 6.78 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 9.01 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.46f1 (8e9b8558c41a)
 [Subsystems] Discovering subsystems at path D:/UnityHub/Unity Editor/2022.3.46f1/Editor/Data/Resources/UnitySubsystems
@@ -72,45 +72,45 @@ Initialize mono
 Mono path[0] = 'D:/UnityHub/Unity Editor/2022.3.46f1/Editor/Data/Managed'
 Mono path[1] = 'D:/UnityHub/Unity Editor/2022.3.46f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/UnityHub/Unity Editor/2022.3.46f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56164
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56476
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/UnityHub/Unity Editor/2022.3.46f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/UnityHub/Unity Editor/2022.3.46f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003655 seconds.
-- Loaded All Assemblies, in  0.355 seconds
+Registered in 0.003614 seconds.
+- Loaded All Assemblies, in  0.380 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.249 seconds
-Domain Reload Profiling: 604ms
-	BeginReloadAssembly (112ms)
+- Finished resetting the current domain, in  0.259 seconds
+Domain Reload Profiling: 639ms
+	BeginReloadAssembly (97ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (44ms)
-	LoadAllAssembliesAndSetupDomain (157ms)
-		LoadAssemblies (112ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (182ms)
+		LoadAssemblies (99ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (155ms)
-			TypeCache.Refresh (154ms)
-				TypeCache.ScanAssembly (135ms)
+		AnalyzeDomain (178ms)
+			TypeCache.Refresh (177ms)
+				TypeCache.ScanAssembly (155ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (249ms)
+	FinalizeReload (259ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (208ms)
+		SetupLoadedEditorAssemblies (218ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (9ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (142ms)
+			ProcessInitializeOnLoadAttributes (152ms)
 			ProcessInitializeOnLoadMethodAttributes (50ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
@@ -120,7 +120,7 @@ Domain Reload Profiling: 604ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.687 seconds
+- Loaded All Assemblies, in  0.827 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -128,47 +128,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.650 seconds
-Domain Reload Profiling: 1336ms
-	BeginReloadAssembly (169ms)
+- Finished resetting the current domain, in  0.586 seconds
+Domain Reload Profiling: 1412ms
+	BeginReloadAssembly (163ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (26ms)
+		CreateAndSetChildDomain (22ms)
 	RebuildCommonClasses (30ms)
 	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (445ms)
-		LoadAssemblies (352ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (561ms)
+		LoadAssemblies (392ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (191ms)
-			TypeCache.Refresh (167ms)
-				TypeCache.ScanAssembly (148ms)
-			ScanForSourceGeneratedMonoScriptInfo (17ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (650ms)
+		AnalyzeDomain (271ms)
+			TypeCache.Refresh (241ms)
+				TypeCache.ScanAssembly (224ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (587ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (488ms)
+		SetupLoadedEditorAssemblies (446ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
+			InitializePlatformSupportModulesInManaged (6ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (54ms)
-			ProcessInitializeOnLoadAttributes (403ms)
-			ProcessInitializeOnLoadMethodAttributes (20ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (363ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 3.93 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 3.05 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3670 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 33 unused Assets / (191.3 KB). Loaded Objects now: 4137.
+Unloading 33 unused Assets / (183.4 KB). Loaded Objects now: 4137.
 Memory consumption went from 137.0 MB to 136.8 MB.
-Total: 3.900400 ms (FindLiveObjects: 0.325700 ms CreateObjectMapping: 0.119000 ms MarkObjects: 3.288400 ms  DeleteObjects: 0.166200 ms)
+Total: 3.396600 ms (FindLiveObjects: 0.306500 ms CreateObjectMapping: 0.122500 ms MarkObjects: 2.825700 ms  DeleteObjects: 0.140700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -185,307 +185,91 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 10221.258494 seconds.
-  path: Assets/Scenes/Scenes_Test/Scene_Test_01/NavMesh-NavMesh.asset
-  artifactKey: Guid(3561fd8475f253b4a8f3379ba7e9b03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scenes_Test/Scene_Test_01/NavMesh-NavMesh.asset using Guid(3561fd8475f253b4a8f3379ba7e9b03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '5d7f46bdd628779baadd2645560b92ac') in 0.014682 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 82.282696 seconds.
-  path: Assets/Scenes/Scenes_Test/Scene_Test_01/NavMesh-NavMesh.asset
-  artifactKey: Guid(3561fd8475f253b4a8f3379ba7e9b03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scenes_Test/Scene_Test_01/NavMesh-NavMesh.asset using Guid(3561fd8475f253b4a8f3379ba7e9b03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'b295053e8f16fa650c66c2e6fc7b2d8c') in 0.001241 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 10.571675 seconds.
-  path: Assets/Scenes/Scenes_Test/Scene_Test_01/NavMesh-NavMesh.asset
-  artifactKey: Guid(3561fd8475f253b4a8f3379ba7e9b03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scenes_Test/Scene_Test_01/NavMesh-NavMesh.asset using Guid(3561fd8475f253b4a8f3379ba7e9b03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '5f405f7037ac06d1e263dceee53abbcc') in 0.001069 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 89.599952 seconds.
-  path: Assets/ProBuilder Data/Default Material Palette.asset
-  artifactKey: Guid(c8d9b4ec07f8efe4a925c05c228f8a55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/ProBuilder Data/Default Material Palette.asset using Guid(c8d9b4ec07f8efe4a925c05c228f8a55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '65b1b9f3bf68fe42cf7bfbed98438fca') in 0.080497 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 154.074147 seconds.
-  path: Assets/Scenes/Scenes_Test/Scene_Test_01.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scenes/Scenes_Test/Scene_Test_01.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '8815925b24f9c13b807f755c9dc72e14') in 0.011982 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 91.762130 seconds.
-  path: Assets/Scenes/Scenes_Test/Scene_Test_01/NavMesh-NavMesh.asset
-  artifactKey: Guid(3561fd8475f253b4a8f3379ba7e9b03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scenes_Test/Scene_Test_01/NavMesh-NavMesh.asset using Guid(3561fd8475f253b4a8f3379ba7e9b03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'a9aacfea296edc4051231e58a9aa3f1b') in 0.001548 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 519.071503 seconds.
-  path: Assets/Scenes/Scenes_Test/Scene_Test_01/NavMesh-NavMesh.asset
-  artifactKey: Guid(3561fd8475f253b4a8f3379ba7e9b03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scenes_Test/Scene_Test_01/NavMesh-NavMesh.asset using Guid(3561fd8475f253b4a8f3379ba7e9b03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '26efc546bb8333799098123c5786699c') in 0.001465 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 13.000995 seconds.
-  path: Assets/Scenes/Scenes_Test/Scene_Test_01/NavMesh-NavMesh.asset
-  artifactKey: Guid(3561fd8475f253b4a8f3379ba7e9b03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scenes_Test/Scene_Test_01/NavMesh-NavMesh.asset using Guid(3561fd8475f253b4a8f3379ba7e9b03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '9d87051b85f2ce29ec06ddeda35d2fd9') in 0.001377 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 60.022003 seconds.
-  path: Assets/Scenes/Scenes_Test/Scene_Test_01/NavMesh-NavMesh.asset
-  artifactKey: Guid(3561fd8475f253b4a8f3379ba7e9b03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scenes_Test/Scene_Test_01/NavMesh-NavMesh.asset using Guid(3561fd8475f253b4a8f3379ba7e9b03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'f321c4291b62f8f1e4efcbbe20f05cbe') in 0.001930 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 11.884035 seconds.
-  path: Assets/Scenes/Scenes_Test/Scene_Test_01/NavMesh-NavMesh.asset
-  artifactKey: Guid(3561fd8475f253b4a8f3379ba7e9b03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scenes_Test/Scene_Test_01/NavMesh-NavMesh.asset using Guid(3561fd8475f253b4a8f3379ba7e9b03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'ee19f316b3e5ad575d7177dc45911542') in 0.001656 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 10.518483 seconds.
-  path: Assets/Scenes/Scenes_Test/Scene_Test_01/NavMesh-NavMesh.asset
-  artifactKey: Guid(3561fd8475f253b4a8f3379ba7e9b03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scenes_Test/Scene_Test_01/NavMesh-NavMesh.asset using Guid(3561fd8475f253b4a8f3379ba7e9b03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'e3af0072988767a661241b384bbac849') in 0.001187 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 10.949056 seconds.
-  path: Assets/Scenes/Scenes_Test/Scene_Test_01/NavMesh-NavMesh.asset
-  artifactKey: Guid(3561fd8475f253b4a8f3379ba7e9b03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scenes_Test/Scene_Test_01/NavMesh-NavMesh.asset using Guid(3561fd8475f253b4a8f3379ba7e9b03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '9707a06aa0c3cc777383853d7010e569') in 0.002039 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 128.406921 seconds.
-  path: Assets/Scenes/Scenes_Test/Scene_Test_01/NavMesh-NavMeshJump.asset
-  artifactKey: Guid(f191e83f18b307c4aa66a159cc60afb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scenes_Test/Scene_Test_01/NavMesh-NavMeshJump.asset using Guid(f191e83f18b307c4aa66a159cc60afb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '1828206ac05fd72506a4432819376d40') in 0.001140 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.965452 seconds.
-  path: Assets/Scenes/Scenes_Test/Scene_Test_01/NavMesh-NavMeshJump.asset
-  artifactKey: Guid(f191e83f18b307c4aa66a159cc60afb7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scenes/Scenes_Test/Scene_Test_01/NavMesh-NavMeshJump.asset using Guid(f191e83f18b307c4aa66a159cc60afb7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '581063a4dc7a34ba40e849cbf3bcfc9f') in 0.019567 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 73.528540 seconds.
+  Time since last request: 13893.404131 seconds.
   path: Assets/Scenes/Scenes_Test/Scene_Test_01/NavMesh-NavMeshWalking.asset
   artifactKey: Guid(f82c2950e9fb4804fb428acdda256380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scenes/Scenes_Test/Scene_Test_01/NavMesh-NavMeshWalking.asset using Guid(f82c2950e9fb4804fb428acdda256380) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '2f45aaedc4ae9888485df7919b1b3fd9') in 0.002052 seconds
+ -> (artifact id: '238aca4c50877dfc5da4fbbe51aae738') in 0.014337 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.974847 seconds.
-  path: Assets/Scenes/Scenes_Test/Scene_Test_01/NavMesh-NavMeshWalking.asset
-  artifactKey: Guid(f82c2950e9fb4804fb428acdda256380) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scenes/Scenes_Test/Scene_Test_01/NavMesh-NavMeshWalking.asset using Guid(f82c2950e9fb4804fb428acdda256380) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '2948cc39f1727c393345468b01442a8e') in 0.015884 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 406.344399 seconds.
-  path: Assets/Scenes/Scenes_Test/Scene_Test_01/NavMesh-NavMeshWalking.asset
-  artifactKey: Guid(f82c2950e9fb4804fb428acdda256380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scenes_Test/Scene_Test_01/NavMesh-NavMeshWalking.asset using Guid(f82c2950e9fb4804fb428acdda256380) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'e3e2c0a4476cc18d651b73ef29d5c77e') in 0.002271 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 61.934021 seconds.
-  path: Assets/Scenes/Scenes_Test/Scene_Test_01/NavMesh-NavMeshJump.asset
-  artifactKey: Guid(f191e83f18b307c4aa66a159cc60afb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scenes_Test/Scene_Test_01/NavMesh-NavMeshJump.asset using Guid(f191e83f18b307c4aa66a159cc60afb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '4a00b9ea51a581c8d5412c04102b3f95') in 0.001378 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.970968 seconds.
-  path: Assets/Scenes/Scenes_Test/Scene_Test_01/NavMesh-NavMeshJump.asset
-  artifactKey: Guid(f191e83f18b307c4aa66a159cc60afb7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scenes/Scenes_Test/Scene_Test_01/NavMesh-NavMeshJump.asset using Guid(f191e83f18b307c4aa66a159cc60afb7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '0844999379afe945ad940feb634bf119') in 0.015357 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 79.761825 seconds.
-  path: Assets/Scenes/Scenes_Test/Scene_Test_01/NavMesh-NavMeshJump.asset
-  artifactKey: Guid(f191e83f18b307c4aa66a159cc60afb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scenes_Test/Scene_Test_01/NavMesh-NavMeshJump.asset using Guid(f191e83f18b307c4aa66a159cc60afb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '38d9c11819ce3878a06bc19eac2c147b') in 0.001131 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.974924 seconds.
-  path: Assets/Scenes/Scenes_Test/Scene_Test_01/NavMesh-NavMeshJump.asset
-  artifactKey: Guid(f191e83f18b307c4aa66a159cc60afb7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scenes/Scenes_Test/Scene_Test_01/NavMesh-NavMeshJump.asset using Guid(f191e83f18b307c4aa66a159cc60afb7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'fc45dbfaab2b841b56a05308d1e6382e') in 0.012825 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 26.724616 seconds.
-  path: Assets/Scenes/Scenes_Test/Scene_Test_01/NavMesh-NavMeshJump.asset
-  artifactKey: Guid(f191e83f18b307c4aa66a159cc60afb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scenes_Test/Scene_Test_01/NavMesh-NavMeshJump.asset using Guid(f191e83f18b307c4aa66a159cc60afb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'ad7a7b4bddb7204ae88514eebf184e64') in 0.001312 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.975011 seconds.
-  path: Assets/Scenes/Scenes_Test/Scene_Test_01/NavMesh-NavMeshJump.asset
-  artifactKey: Guid(f191e83f18b307c4aa66a159cc60afb7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scenes/Scenes_Test/Scene_Test_01/NavMesh-NavMeshJump.asset using Guid(f191e83f18b307c4aa66a159cc60afb7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'fcfdad06a48de97e8ff3d15e15e8fa8f') in 0.027617 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 57.759968 seconds.
-  path: Assets/Scenes/Scenes_Test/Scene_Test_01/NavMesh-NavMeshJump.asset
-  artifactKey: Guid(f191e83f18b307c4aa66a159cc60afb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scenes_Test/Scene_Test_01/NavMesh-NavMeshJump.asset using Guid(f191e83f18b307c4aa66a159cc60afb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '7f3e1d24d280965ddf661b46cf8aa88d') in 0.001140 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.973421 seconds.
-  path: Assets/Scenes/Scenes_Test/Scene_Test_01/NavMesh-NavMeshJump.asset
-  artifactKey: Guid(f191e83f18b307c4aa66a159cc60afb7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scenes/Scenes_Test/Scene_Test_01/NavMesh-NavMeshJump.asset using Guid(f191e83f18b307c4aa66a159cc60afb7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'ae396e3ea898c66c419e2bd725f653e4') in 0.018310 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 52.821402 seconds.
-  path: Assets/Scenes/Scenes_Test/Scene_Test_01/NavMesh-NavMeshJump.asset
-  artifactKey: Guid(f191e83f18b307c4aa66a159cc60afb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scenes_Test/Scene_Test_01/NavMesh-NavMeshJump.asset using Guid(f191e83f18b307c4aa66a159cc60afb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'b9b7e63d08be6354b5e702785162635f') in 0.001337 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.966846 seconds.
-  path: Assets/Scenes/Scenes_Test/Scene_Test_01/NavMesh-NavMeshJump.asset
-  artifactKey: Guid(f191e83f18b307c4aa66a159cc60afb7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scenes/Scenes_Test/Scene_Test_01/NavMesh-NavMeshJump.asset using Guid(f191e83f18b307c4aa66a159cc60afb7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '35df7079028dc99b965ab51a526cc6f0') in 0.020926 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 84.491476 seconds.
-  path: Assets/Scenes/Scenes_Test/Scene_Test_01/NavMesh-NavMeshJump.asset
-  artifactKey: Guid(f191e83f18b307c4aa66a159cc60afb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scenes_Test/Scene_Test_01/NavMesh-NavMeshJump.asset using Guid(f191e83f18b307c4aa66a159cc60afb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '0af8e18137a646f134446488deef00c0') in 0.001027 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.973533 seconds.
-  path: Assets/Scenes/Scenes_Test/Scene_Test_01/NavMesh-NavMeshJump.asset
-  artifactKey: Guid(f191e83f18b307c4aa66a159cc60afb7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scenes/Scenes_Test/Scene_Test_01/NavMesh-NavMeshJump.asset using Guid(f191e83f18b307c4aa66a159cc60afb7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '930102879bc2fdab89abf1fccaffa10d') in 0.011496 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 96.454588 seconds.
-  path: Assets/Scenes/Scenes_Test/Scene_Test_01/NavMesh-NavMeshWalking.asset
-  artifactKey: Guid(f82c2950e9fb4804fb428acdda256380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scenes_Test/Scene_Test_01/NavMesh-NavMeshWalking.asset using Guid(f82c2950e9fb4804fb428acdda256380) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '976ea25bc5fdfc17a4a63c2d9edda35e') in 0.001202 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 209.368588 seconds.
-  path: Assets/Scenes/Scenes_Test/Scene_Test_01/NavMesh-NavMeshJump.asset
-  artifactKey: Guid(f191e83f18b307c4aa66a159cc60afb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scenes_Test/Scene_Test_01/NavMesh-NavMeshJump.asset using Guid(f191e83f18b307c4aa66a159cc60afb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '0a95f6a72811e96314b8942f895e5101') in 0.001186 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 270.190857 seconds.
+  Time since last request: 2.983403 seconds.
   path: Assets/Scenes/Scenes_Test/Scene_Test_01/NavMesh-NavMeshWalking 1.asset
   artifactKey: Guid(7c8cb5df8c767fb4db796275e586ed28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scenes/Scenes_Test/Scene_Test_01/NavMesh-NavMeshWalking 1.asset using Guid(7c8cb5df8c767fb4db796275e586ed28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '97da5be586e77c90cb574f9bfbc978d9') in 0.001620 seconds
+ -> (artifact id: '948c47af82ef906edcd9c9150f3b89aa') in 0.000961 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.969524 seconds.
-  path: Assets/Scenes/Scenes_Test/Scene_Test_01/NavMesh-NavMeshWalking 1.asset
-  artifactKey: Guid(7c8cb5df8c767fb4db796275e586ed28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scenes/Scenes_Test/Scene_Test_01/NavMesh-NavMeshWalking 1.asset using Guid(7c8cb5df8c767fb4db796275e586ed28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'f99bc1216ee208475208e329067b8c84') in 0.019132 seconds
+  Time since last request: 75.826971 seconds.
+  path: Assets/Scenes/Scenes_Test/Scene_CreatePrefabs.unity
+  artifactKey: Guid(a52ad57d76f1d0a478e2c4280df8f26e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scenes_Test/Scene_CreatePrefabs.unity using Guid(a52ad57d76f1d0a478e2c4280df8f26e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8bebfb1f14265b9f463c9a35a40ce337') in 0.000672 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 107.035818 seconds.
-  path: Assets/Scenes/Scenes_Test/Scene_Test_01.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scenes/Scenes_Test/Scene_Test_01.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'dfaacdffb2b93c6a2582652e04f9245a') in 0.014923 seconds
+  Time since last request: 664.415418 seconds.
+  path: Assets/Prefabs_Probuilder/Prefab_Nivel/PrefabCurve.prefab
+  artifactKey: Guid(a16aa1fae7e490e4f8c2ec2f13ea06c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs_Probuilder/Prefab_Nivel/PrefabCurve.prefab using Guid(a16aa1fae7e490e4f8c2ec2f13ea06c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'dded40c2a0d3d8978437fb915bbd9e55') in 0.051094 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 8.053831 seconds.
+  path: Assets/Prefabs_Probuilder/Prefab_Nivel/PrefabStair.prefab
+  artifactKey: Guid(0ac5f8728079c7541930a7a720ff3120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs_Probuilder/Prefab_Nivel/PrefabStair.prefab using Guid(0ac5f8728079c7541930a7a720ff3120) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b4e409da7a5f7adf0627b51a6fb86cb4') in 0.001890 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 1.252590 seconds.
+  path: Assets/Prefabs_Probuilder/Prefab_Nivel/PrefabClimb.prefab
+  artifactKey: Guid(bb641077c2fe95c4ba2a2215c45cd549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs_Probuilder/Prefab_Nivel/PrefabClimb.prefab using Guid(bb641077c2fe95c4ba2a2215c45cd549) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f9d5610b4fef2b0e01c5e209f8252de2') in 0.002017 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 3.222660 seconds.
+  path: Assets/Prefabs_Probuilder/Prefabs_Plataform/PrefabCurve.prefab
+  artifactKey: Guid(5a95559980379ef468aa7daf38fdf441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs_Probuilder/Prefabs_Plataform/PrefabCurve.prefab using Guid(5a95559980379ef468aa7daf38fdf441) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7185791d2b5b56ceafbfddfe60077336') in 0.002006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 740.239229 seconds.
+  path: Assets/Prefabs_Probuilder/Prefabs_Plataform/PrefabDiagonal(2).prefab
+  artifactKey: Guid(116aca3138c5e604688596ae6e984da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs_Probuilder/Prefabs_Plataform/PrefabDiagonal(2).prefab using Guid(116aca3138c5e604688596ae6e984da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1cca58c397c5418825e492f7d7e29635') in 0.004772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 1.701544 seconds.
+  path: Assets/Prefabs_Probuilder/Prefabs_Plataform/PrefabDiagonal.prefab
+  artifactKey: Guid(87acbcdc83050804e8b93baf8eb560a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs_Probuilder/Prefabs_Plataform/PrefabDiagonal.prefab using Guid(87acbcdc83050804e8b93baf8eb560a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '27feedb177045a689b62c4fa800fc050') in 0.002417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 74.949428 seconds.
+  path: Assets/Prefabs_Probuilder/Prefab_Nivel/PrefabCurve.prefab
+  artifactKey: Guid(a16aa1fae7e490e4f8c2ec2f13ea06c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs_Probuilder/Prefab_Nivel/PrefabCurve.prefab using Guid(a16aa1fae7e490e4f8c2ec2f13ea06c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '96b877a6f3bf9c50696044f6f7b4a7d1') in 0.004455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
