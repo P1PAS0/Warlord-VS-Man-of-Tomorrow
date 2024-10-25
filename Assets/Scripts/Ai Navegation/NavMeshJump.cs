@@ -23,11 +23,11 @@ public class NavMeshJump : MonoBehaviour
         GetComponent<UnityEngine.AI.NavMeshAgent>().enabled = false;
 
         Vector3 jumpDirection = (target - transform.position).normalized;
-        jumpDirection.y = 1; // A�ade componente vertical al salto
+        jumpDirection.y = 1;
 
         rb.AddForce(jumpDirection * jumpForce, ForceMode.VelocityChange);
 
-        yield return new WaitForSeconds(1f); // Espera hasta que el salto termine
+        //yield return new WaitForSeconds(1f);
 
         while (!IsGrounded())
         {

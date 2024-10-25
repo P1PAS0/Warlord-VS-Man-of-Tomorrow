@@ -5,7 +5,7 @@ using UnityEngine.AI;
 
 public class GeneralMovement : MonoBehaviour
 {
-    public Transform[] waypoints; // Array de waypoints
+    public Transform[] waypoints; 
     private int currentWaypointIndex = 0;
     private NavMeshAgent agent;
     private NavMeshJump jumper;
@@ -25,13 +25,13 @@ public class GeneralMovement : MonoBehaviour
     {
         if (jumper.isJumping) return;
 
-        // Verifica si el agente ha llegado al destino
+       
         if (!agent.pathPending && agent.remainingDistance < 1f)
         {
-            // Actualiza el índice del waypoint al siguiente
+            
             currentWaypointIndex = (currentWaypointIndex + 1) % waypoints.Length;
 
-            // Verifica si el siguiente waypoint tiene configuraciones de salto
+          
             Waypoint waypoint = waypoints[currentWaypointIndex].GetComponent<Waypoint>();
             if (waypoint != null && waypoint.requiresJump)
             {
@@ -39,7 +39,7 @@ public class GeneralMovement : MonoBehaviour
             }
             else
             {
-                // Establece el nuevo destino
+                
                 agent.SetDestination(waypoints[currentWaypointIndex].position);
             }
         }
