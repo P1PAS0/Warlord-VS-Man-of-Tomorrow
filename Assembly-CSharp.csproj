@@ -61,9 +61,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\PathCreator\Examples\Scripts\PathPlacer.cs" />
+    <Compile Include="Assets\Scripts\Mecanic Bullets\BulletEventManager.cs" />
     <Compile Include="Assets\PathCreator\Examples\Scripts\PathSceneTool.cs" />
+    <Compile Include="Assets\Scripts\Mecanic Bullets\GameController.cs" />
     <Compile Include="Assets\Scripts\Ai Navegation\Waypoint.cs" />
+    <Compile Include="Assets\Scripts\Mecanic Bullets\Bullet.cs" />
     <Compile Include="Assets\PathCreator\Examples\Scripts\PathFollower.cs" />
+    <Compile Include="Assets\Scripts\Mecanic Bullets\BulletMov.cs" />
+    <Compile Include="Assets\Scripts\Mecanic Bullets\GameState.cs" />
+    <Compile Include="Assets\Scripts\Mecanic Bullets\BulletPool.cs" />
     <Compile Include="Assets\PathCreator\Examples\Scripts\GeneratePathExample.cs" />
     <Compile Include="Assets\PathCreator\Examples\Scripts\RoadMeshCreator.cs" />
     <Compile Include="Assets\Scripts\Ai Navegation\GeneralMovement.cs" />

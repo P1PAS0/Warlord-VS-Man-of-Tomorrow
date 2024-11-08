@@ -373,6 +373,12 @@
 "Assets/Scripts/Ai Navegation/GeneralMovement.cs"
 "Assets/Scripts/Ai Navegation/NavMeshJump.cs"
 "Assets/Scripts/Ai Navegation/Waypoint.cs"
+"Assets/Scripts/Mecanic Bullets/Bullet.cs"
+"Assets/Scripts/Mecanic Bullets/BulletEventManager.cs"
+"Assets/Scripts/Mecanic Bullets/BulletMov.cs"
+"Assets/Scripts/Mecanic Bullets/BulletPool.cs"
+"Assets/Scripts/Mecanic Bullets/GameController.cs"
+"Assets/Scripts/Mecanic Bullets/GameState.cs"
 -langversion:9.0
 /deterministic
 /optimize+

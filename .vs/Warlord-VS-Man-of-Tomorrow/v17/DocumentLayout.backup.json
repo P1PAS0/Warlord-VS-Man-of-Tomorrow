@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\felip\\Warlord-VS-Man-of-Tomorrow\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D3881AA4-72BE-C106-FE0D-F472B66027A2}|Assembly-CSharp.csproj|C:\\Users\\felip\\Warlord-VS-Man-of-Tomorrow\\assets\\scripts\\ai navegation\\generalmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3881AA4-72BE-C106-FE0D-F472B66027A2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ai navegation\\generalmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D3881AA4-72BE-C106-FE0D-F472B66027A2}|Assembly-CSharp.csproj|c:\\users\\felip\\warlord-vs-man-of-tomorrow\\assets\\scripts\\mecanic bullets\\bulleteventmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3881AA4-72BE-C106-FE0D-F472B66027A2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mecanic bullets\\bulleteventmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3881AA4-72BE-C106-FE0D-F472B66027A2}|Assembly-CSharp.csproj|c:\\users\\felip\\warlord-vs-man-of-tomorrow\\assets\\scripts\\ai navegation\\navmeshjump.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3881AA4-72BE-C106-FE0D-F472B66027A2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ai navegation\\navmeshjump.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D3881AA4-72BE-C106-FE0D-F472B66027A2}|Assembly-CSharp.csproj|c:\\users\\felip\\warlord-vs-man-of-tomorrow\\assets\\scripts\\mecanic bullets\\bulletpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3881AA4-72BE-C106-FE0D-F472B66027A2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mecanic bullets\\bulletpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3881AA4-72BE-C106-FE0D-F472B66027A2}|Assembly-CSharp.csproj|C:\\Users\\felip\\Warlord-VS-Man-of-Tomorrow\\assets\\scripts\\ai navegation\\waypoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3881AA4-72BE-C106-FE0D-F472B66027A2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ai navegation\\waypoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D3881AA4-72BE-C106-FE0D-F472B66027A2}|Assembly-CSharp.csproj|C:\\Users\\felip\\Warlord-VS-Man-of-Tomorrow\\assets\\scripts\\mecanic bullets\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3881AA4-72BE-C106-FE0D-F472B66027A2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mecanic bullets\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3881AA4-72BE-C106-FE0D-F472B66027A2}|Assembly-CSharp.csproj|c:\\users\\felip\\warlord-vs-man-of-tomorrow\\assets\\scripts\\mecanic bullets\\bulletmov.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3881AA4-72BE-C106-FE0D-F472B66027A2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mecanic bullets\\bulletmov.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GeneralMovement.cs",
-              "DocumentMoniker": "C:\\Users\\felip\\Warlord-VS-Man-of-Tomorrow\\Assets\\Scripts\\Ai Navegation\\GeneralMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Ai Navegation\\GeneralMovement.cs",
-              "ToolTip": "C:\\Users\\felip\\Warlord-VS-Man-of-Tomorrow\\Assets\\Scripts\\Ai Navegation\\GeneralMovement.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Ai Navegation\\GeneralMovement.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwC4AAAABAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "BulletMov.cs",
+              "DocumentMoniker": "C:\\Users\\felip\\Warlord-VS-Man-of-Tomorrow\\Assets\\Scripts\\Mecanic Bullets\\BulletMov.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Mecanic Bullets\\BulletMov.cs",
+              "ToolTip": "C:\\Users\\felip\\Warlord-VS-Man-of-Tomorrow\\Assets\\Scripts\\Mecanic Bullets\\BulletMov.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Mecanic Bullets\\BulletMov.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T19:09:21.911Z",
+              "WhenOpened": "2024-11-07T20:11:24.018Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "NavMeshJump.cs",
-              "DocumentMoniker": "C:\\Users\\felip\\Warlord-VS-Man-of-Tomorrow\\Assets\\Scripts\\Ai Navegation\\NavMeshJump.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Ai Navegation\\NavMeshJump.cs",
-              "ToolTip": "C:\\Users\\felip\\Warlord-VS-Man-of-Tomorrow\\Assets\\Scripts\\Ai Navegation\\NavMeshJump.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Ai Navegation\\NavMeshJump.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwCUAAAA2AAAAAAAAAA==",
+              "Title": "BulletPool.cs",
+              "DocumentMoniker": "C:\\Users\\felip\\Warlord-VS-Man-of-Tomorrow\\Assets\\Scripts\\Mecanic Bullets\\BulletPool.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Mecanic Bullets\\BulletPool.cs",
+              "ToolTip": "C:\\Users\\felip\\Warlord-VS-Man-of-Tomorrow\\Assets\\Scripts\\Mecanic Bullets\\BulletPool.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Mecanic Bullets\\BulletPool.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAADwvzgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T18:49:35.185Z",
+              "WhenOpened": "2024-11-07T20:11:17.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BulletEventManager.cs",
+              "DocumentMoniker": "C:\\Users\\felip\\Warlord-VS-Man-of-Tomorrow\\Assets\\Scripts\\Mecanic Bullets\\BulletEventManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Mecanic Bullets\\BulletEventManager.cs",
+              "ToolTip": "C:\\Users\\felip\\Warlord-VS-Man-of-Tomorrow\\Assets\\Scripts\\Mecanic Bullets\\BulletEventManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Mecanic Bullets\\BulletEventManager.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwCEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T20:00:55.799Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Waypoint.cs",
-              "DocumentMoniker": "C:\\Users\\felip\\Warlord-VS-Man-of-Tomorrow\\Assets\\Scripts\\Ai Navegation\\Waypoint.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Ai Navegation\\Waypoint.cs",
-              "ToolTip": "C:\\Users\\felip\\Warlord-VS-Man-of-Tomorrow\\Assets\\Scripts\\Ai Navegation\\Waypoint.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Ai Navegation\\Waypoint.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
+              "Title": "GameController.cs",
+              "DocumentMoniker": "C:\\Users\\felip\\Warlord-VS-Man-of-Tomorrow\\Assets\\Scripts\\Mecanic Bullets\\GameController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Mecanic Bullets\\GameController.cs",
+              "ToolTip": "C:\\Users\\felip\\Warlord-VS-Man-of-Tomorrow\\Assets\\Scripts\\Mecanic Bullets\\GameController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Mecanic Bullets\\GameController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBkAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T18:48:42.663Z",
+              "WhenOpened": "2024-11-07T20:00:37.328Z",
               "EditorCaption": ""
             }
           ]
